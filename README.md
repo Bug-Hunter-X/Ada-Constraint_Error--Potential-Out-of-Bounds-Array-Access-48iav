@@ -1,0 +1,3 @@
+# Ada Constraint_Error Example
+
+This example demonstrates a potential `Constraint_Error` in Ada due to accessing an array element after a loop that might exit prematurely.  The code iterates through an array and exits early if a specific condition is met.  If the loop exits before reaching the end, attempting to access the array element after the loop can result in an out-of-bounds access, causing a `Constraint_Error`.  The solution shows how to safely avoid this error.
